@@ -1,0 +1,142 @@
+/*header*/
+header{
+	height: 110px;
+}
+header .headtop{
+	width: 1080px;
+	height: 34px;
+	margin: 0 auto;
+    font-family: "宋体";
+    padding-top: 4px;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(102, 102, 102);
+}
+header .headtopr{
+	width: 460px;
+	height: 31px;
+	float: right;   
+}
+
+dt {
+    display: block;
+}
+header .headtopfl{
+	float: left;
+}
+header .headtopfl b{
+	padding: 0 6px;
+}
+header .headtopfl .btn_login,header .headtopfl .btn_reg{
+	color: #f00180;
+}
+header .headtopfr{
+	float: right;
+	width: 157px;
+	height: 30px;
+	padding-left: 16px;
+	background: url(img/phone.png) left 1px no-repeat;
+}
+/**/
+header .sec_head{
+	width: 1080px;
+	height: 76px;
+	margin: 0 auto;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+.sec_head h1{
+	font-size: 2em;
+	font-weight: bold;
+	float:left;
+}
+.sec_head .top_logo{
+	width: 125px;
+    height: 50px;
+    display: inline;
+    float: left;
+}
+.sec_head .topnav{
+	padding-left: 40px;
+    font-size: 14px;
+    color: #666666;
+    padding-top: 13px;
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    display: inline;
+}   
+.topnav a{
+	color: #666666;
+}
+
+.topnav .selected,.sec_head .topnav a:hover{
+	color: red;
+} 
+.sec_head .topnav span{
+	 padding: 0 10px;
+}
+.sec_head .sec_search{
+	width: 536px;
+	height: 75px;
+	padding: 4px 0 0 0;
+	float: right;
+	
+}  
+.topsearch{
+	width: 536px;
+	height: 34px;
+	float: left;
+}  
+.topsearch .text_search{
+	border: 2px solid #e60012;
+    height: 30px;
+    width: 420px;
+    padding: 0 5px;
+    float: left;
+}
+.topsearch .sea_btn{
+	font-size: 18px;
+    width: 98px; 
+    height: 34px;
+    line-height: 34px;
+    text-align: center; 
+    background: #e60012;
+    color: #fff;
+    float: right;
+    border: none;
+    margin-right: 4px;
+}
+.sec_search .btm{
+	line-height: 28px;
+    padding-bottom: 8px;
+}
+.sec_search .btm b{
+	margin: 0 7px;
+} 
+.btm .hot{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,115 @@
+@import 'reset.scss';
+@import 'common.scss';
+.listContent{
+    background: #f0fbfd;width: 100%;padding-top: 1px;margin: 0 auto;
+    .listTop{
+        width: 998px;border: 1px solid #eaf9fc;margin: 0 auto;margin-top: 15px;background: #fff;font-family: "\5FAE\8F6F\96C5\9ED1";
+        .list{
+            padding: 2px 0 0 20px;width: 976px;
+            dl{
+                line-height: 44px;padding-bottom: 10px;color: #000;background:url(../img/dot4-1.png) repeat-x left bottom;width: 960px;
+                .fen{width: 37px;white-space: nowrap;font-weight: bold;line-height: 30px;float: left;}
+                .zhong{
+                    height: 60px;overflow: hidden;width: 870px;line-height: 30px;float: left;
+                    a{
+                        color: #000;display: inline-block;text-align: left;margin-right: 20px;
+                        
+                    }
+                    a.act{text-decoration: underline;font-weight: bold;color: #14b3c9;}
+                    a:hover{color: deepskyblue;}
+                }
+                .show{
+                    float: right;display: inline-block;
+                    .showIn{cursor: pointer;color: #14b3c9;width: auto;height: 24px;line-height: 24px;margin-top: 2px;float: right;}
+                }
+                    
+                 
+            }
+            
+        }
+        .page{
+            font-family: "\5B8B\4F53";margin: 0 auto;padding: 15px 0 14px 0;
+            .pageLeft{
+                float: left;display: inline;width: 404px;margin-left: 10px;
+                a{
+                    float: left;width: 70px;height: 28px;line-height: 28px;text-align: center;border: 1px solid #dddddd;color: #444444;margin-left: -1px;text-decoration: none;z-index: 1;position: relative;left: 0;top: 0;
+                    span{vertical-align: middle;margin-right: 4px;}
+                    b{
+                        display: inline-block;width: 9px;height: 12px;background: url(../css/img/arrow.png) no-repeat -11px 0;vertical-align: middle;
+                    }
+                }
+                a.just{width: 108px;margin-left: 10px;}
+                a:hover{color: deepskyblue;}
+            }
+            .pageR{
+                width:314px;height: 30px;float: right;font-family: "\5B8B\4F53";display: block;margin-right: 10px;
+                span{padding-right: 12px;float: left;color: #000;height: 28px;line-height: 28px;}
+                a{float: left;width: 28px;height: 28px;line-height: 28px;text-align: center;margin-right: 2px;border:1px solid darkgray;}
+                a:hover{color: deepskyblue;border:1px solid deepskyblue;}
+                .pageFirst{margin-right: 5px;}
+                a.active{border: 1px solid #73dff4;color: #14b3c9;}
+                .pageLast{margin: 0;margin-left: 3px;}
+            }
+        }
+    }
+}
+
+.fixnav{
+        width:88px;height: 204px;position: fixed;right:20px;top:200px;display: none;
+    }
+
+.goodsIt {
+               margin-left: 20px;
+                ul {
+                    overflow: hidden;
+
+                    img {
+                        width: 175px;
+                        height: 175px;
+                        float: left;
+                    }
+                    li {
+                        float: left;
+                        border-bottom: #f2f2f2 1px solid;
+                        margin: 0px 16px 16px 0px;
+                        list-style-type: none;
+                        width: 180px;
+                        height: 320px;
+
+                        ul {
+                            width: 194px;
+                            height: 135px;
+                            float: left;
+                            overflow: hidden;
+                            font-size: 13px;
+                            li {
+                                height: auto;
+                                float: none;
+                                margin: 7px 0px;
+                                padding:0px;
+                                border: none;
+                            }
+                            li:first-child {
+                                height: 36px;
+                                overflow: hidden;
+                            }
+                            li:nth-child(2) {
+                                margin-left: 10px;
+                                color: #aa0009;
+                                font-size: 18px;
+                                font-weight: bold;
+                            }
+                            li:nth-child(3) {
+                                color: #ff6600;
+                            }
+                        }
+                    }
+                }
+                .shou{background: pink;border: none;color: gray;}
+            }
+           
+.btn-group{
+    margin-left: 650px;
+//  .btn-group{display: inline-block;width: 100px;height: 30px;font-size: 18px;text-align: center;float: left;margin-left: 20px;background: red;} 
+}
+           

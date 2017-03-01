@@ -1,0 +1,96 @@
+@import 'reset.scss';
+@import 'common.scss';
+
+.loginMain{
+    width:100%;height:100%;background-repeat: repeat;
+    .logHead{
+        width: 1000px;height: 80px;margin-top: 40px;margin-bottom: 50px;    margin-left: auto;margin-right: auto;
+        .logLogo{
+            width: 162px;height: 60px;background-position: -281px -123px;float: left;
+    display: inline;
+        }
+        .sprite{
+            width: 445px;height: 28px;background-position: 0px -188px;margin-top: 22px;background-image: url(../img/loginmain.png);background-repeat: no-repeat;float: right;display: inline;
+        }
+    }
+    .logContent{
+        width: 1000px;height: 600px;clear: both;margin-left: auto;margin-right: auto;
+        .contentLeft{margin-left: 50px;margin-top: 50px;float: left;display: inline;}   
+        .contentForm{
+            width:370px;margin-top: 30px;float: right;display: inline;font-family: 微软雅黑;
+            .please{display:none;font-size: 14px;font-family: 微软雅黑;}
+            .welcome{
+                margin-bottom: 20px;font-size: 14px;font-family: 微软雅黑;
+                .fb{font-weight: bold;font-size: 14px;}
+            } 
+            .loginName{
+                position: relative;margin-top: 10px;
+                .loginInput{width: 263px;border-color: #bfbdbf;height: 33px;border: 1px solid #bfbdbf;border-radius: 3px;font-size: 14px;line-height:33px;padding-left: 10px;font-family: 微软雅黑;
+                }
+                label{position: absolute;left: 11px;line-height: 35px;height: 35px;color: #a6a6a6;cursor: text;font-size: 14px;}
+            }
+            .nameWarn{color: #f20266;line-height: 25px;height: 25px;font-size: 12px;}   
+            .loginPass{
+                position: relative;
+                .loginInput2{
+                    border-color: rgb(242, 2, 102);background: none;width: 263px;height: 33px;border: 1px solid #bfbdbf;border-radius: 3px;font-size: 14px;line-height: 33px;color: #4c4c4c;padding-left: 10px;font-family: 微软雅黑;
+                }
+                label{position: absolute;left: 11px;line-height: 35px;height: 35px;color: #a6a6a6;cursor: text;font-size: 14px;}
+            }
+            .passWarn{font-size: 12px;color: #f20266;line-height: 25px;height: 25px;}
+            .denglu{
+                margin-bottom: 5px;margin-top: 5px;
+                .deng{color: #fff;width: 140px;height: 40px;background-position: -142px -1px;border: none;display: block;cursor: pointer;font-size: 16px;background-image: url(../img/loginmain.png);background-repeat: no-repeat;font-family: 微软雅黑;
+                } 
+            }
+            .mt15{
+                margin-top: 15px;
+                .tishi{
+                    margin-right: 100px;vertical-align: middle;float: right;display: inline;
+                    .forget{color: #666;vertical-align: middle;}
+                    .regis{color: #f10180;}    
+                    .checkbox{
+                        color: #666;zoom: 1;vertical-align: middle;
+                        .dengBtn{background-image: url(../img/loginmain.png);background-repeat: no-repeat;vertical-align: middle;}
+                    }       
+                }      
+            }
+            .linkFor{
+                width:280px;margin-top: 30px;line-height: 200%;
+                .redLine{
+                    height: 0px;border-bottom: 1px dashed #eeeeee;overflow: hidden;color: #666;width: 100%;
+                }
+                .linkIcon{
+                    position: relative;padding-left: 120px;margin-top: 20px;color: #666;
+                    span{
+                        position: absolute;left: 0px;top: 10px;
+                    }
+                    .weibo{
+                        cursor: pointer;width: 24px;height: 24px;margin-right: 5px;display: inline-block;margin-top: 7px;background-position: -142px -122px;background-image: url(../img/loginmain.png);background-repeat: no-repeat;
+                    }
+                    .qq{
+                        cursor: pointer;width: 24px;height: 24px;margin-right: 5px;display: inline-block;margin-top: 7px;background-position: -166px -122px;margin-left: 2px;background-image: url(../img/loginmain.png);background-repeat: no-repeat;
+                    }
+                    .weixin{
+                        cursor: pointer;width: 24px;height: 24px;margin-right: 5px;display: inline-block;margin-top: 7px;    background-position: -214px -122px;background-image: url(../img/loginmain.png);background-repeat: no-repeat;
+                    }
+                }   
+            }                  
+        }    
+    }
+    .loginFooter{
+        width: 1000px;text-align: center;color: #666666;height: 50px;margin-left: auto;margin-right: auto;
+        a{
+            color: #555;padding: 0 11px;font-size: 14px;line-height: 36px;
+        }
+    }        
+    
+}
+
+
+
+    
+
+    
+    
+   

@@ -1,0 +1,3 @@
+https:   https://git.coding.net/hysxm/qinqinbaby.git
+
+ssh:   git@git.coding.net:hysxm/qinqinbaby.git

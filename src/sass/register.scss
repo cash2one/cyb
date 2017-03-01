@@ -1,0 +1,121 @@
+@import 'reset.scss';
+@import 'common.scss';
+/*regmain*/
+.regmain{
+    height: 660px;
+    .regtop{
+        width: 1000px;
+        height: 60px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        .reglogo{
+            width: 162px;
+            height: 60px;
+            background-position: -281px -123px;
+            float: left;
+            display: inline;
+        }
+        .promise{
+            width: 445px;
+            height: 28px;
+            background-position: 0px -188px;
+            margin-top: 32px;
+            background-image: url(../img/loginmain.png);
+            background-repeat: no-repeat;
+            float: right;
+            display: inline;
+        }   
+    } 
+    .regtxt{
+        width: 1000px; 
+        height: 500px;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        .txtleft{
+            margin-left: 50px;
+            margin-top: 50px;
+            float: left;
+            display: inline;
+        } 
+        .regform{
+            width: 370px;
+            margin-top: 30px;
+            float: right;
+            display: inline;
+            font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+            .please{
+                 width: 100%;
+                 margin-bottom: 20px;
+                 font-size: 14px;
+            }
+            .fr{
+                float: right;
+                display: inline;
+            } 
+            .deng{
+                color: red;
+            } 
+            .plephone,.plepass,.plecomi{ 
+                color: #f20266;line-height: 25px;height: 25px;width: 100%;display: block;
+            }
+            .form-control{margin: 10px 0;} 
+            .identify{
+                width: 100%;height: 37px;line-height: 35px;margin-top: 20px;
+                .yan{
+                    width: 118px;vertical-align: middle;border-color: #bfbdbf;height: 33px;border: 1px solid #bfbdbf;border-radius: 3px;font-size: 14px;line-height: 33px;color: #4c4c4c;padding-left: 10px;
+                }
+                .yanzh{cursor: pointer;display: inline-block;vertical-align: middle;}
+                .huan{cursor: pointer;color: #ff9710;vertical-align: middle;}
+                .tuyan{color: #f20266;}
+            }
+            .yuyin{
+                width: 100%;position: relative;margin-top: 40px;
+                .yu{
+                    width: 118px;border-color: #bfbdbf;height: 33px;border: 1px solid #bfbdbf;border-radius: 3px;font-size: 14px;line-height: 33px;color: #4c4c4c;padding-left: 10px;
+                }
+                label{position: absolute;left: 11px;line-height: 35px;height: 35px;color: #a6a6a6;cursor: text;font-size: 14px;}
+                .sCode{width: 120px;height: 30px;background: #fff5ed;border-radius: 3px;color: darkorange;border: none;}
+            }
+            .queRen{visibility: hidden;color: #f20266;line-height: 25px;height: 25px;width: 100%;}
+            .regSubmit{
+                margin-bottom: 5px;
+                .regS{
+                    color: #fff;width: 140px;height: 40px;background-position: -142px -1px;border: none;background-image: url(../img/loginmain.png);background-repeat: no-repeat;font-size: 16px;
+                }
+            }
+            .regRead{
+                margin-top: 15px;
+                .cheGou{
+                    color: #666;zoom: 1;
+                    .vm{
+                        background-position: -30px -69px;width: 14px;height: 14px;display: inline-block;cursor: pointer;position: relative;bottom: 2px;left: 2px;background-image: url(../img/loginmain.png);background-repeat: no-repeat;
+                    }
+                    a{color: #f43499;}
+                }
+            }
+            .yuedu{visibility: hidden;color: #f20266;line-height: 25px;height: 25px;}
+        }    
+    }
+    .logFoot{ 
+        text-align: center;color: #666666;height: 50px;
+        .about{
+            a{color: #555;padding: 0 11px;font-size: 14px;line-height: 36px;}
+            span{font-size: 12px;}
+        }
+    }   
+     
+         
+}
+
+
+
+
+   
+
+
+
+
+

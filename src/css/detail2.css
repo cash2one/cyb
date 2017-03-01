@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/*reset*/
+body, h1, h2, h3, h4, h5, h6, p, dl, dd, ul, ol, pre, form, input, textarea, th, td, select { margin: 0; padding: 0; }
+
+em { font-style: normal; }
+
+li { list-style: none; }
+
+a { text-decoration: none; color: gray; }
+
+img { border: none; }
+
+table { border-collapse: collapse; }
+
+textarea { resize: none; overflow: hidden; }
+
+/*common*/
+body { font-family: '微软雅黑'; color: #3a3b39; font-size: 12px; }
+
+.wrap { width: 1200px; margin: 0 auto; }
+
+.clear { zoom: 1; }
+
+.clear:after { content: ''; display: block; clear: both; }
+
+.topLine { position: relative; width: 100%; overflow: hidden; height: 6px; background: #f39a00; }
+
+.topLine img { position: absolute; width: 1920px; height: 6px; left: 50%; top: 0; margin-left: -960px; }
+
+.box { background: aliceblue; width: 100%; }
+
+.box .content { width: 1000px; font-family: 微软雅黑; margin: 0 auto; }
+
+.box .content .contentNav { font-size: 12px; height: 40px; line-height: 40px; }
+
+.box .content .contentNav ul li { float: left; padding-left: 10px; padding-right: 10px; position: relative; }
+
+.box .content .contentNav ul li span { position: absolute; top: 10px; right: -8px; background: url(../img/mian.png) 0px 0px no-repeat; width: 14px; height: 14px; }
+
+.box .content .contentMain { padding: 10px 0 10px; background: #fff; border: 1px solid #e2f5f8; position: relative; }
+
+.box .content .contentMain .mainLeft { float: left; width: 302px; height: 488px; position: relative; z-index: 1000; padding: 0px 50px; }
+
+.box .content .contentMain .mainLeft .etalage_thumb_image { width: 300px; height: 300px; display: block; float: left; }
+
+.box .content .contentMain .mainLeft .etalage_big_image { width: 500px; height: 500px; float: left; }
+
+.box .content .contentMain .mainRight { width: 576px; float: left; }
+
+.box .content .contentMain .mainRight .tob { width: 530px; height: 24px; background: url(../img/tob-bg.jpg) no-repeat; text-align: center; }
+
+.box .content .contentMain .mainRight .tob .to { height: 24px; line-height: 24px; margin: 0 auto; }
+
+.box .content .contentMain .mainRight .tob .to span { background: #fff; text-align: center; padding-left: 10px; padding-right: 10px; font-size: 14px; }
+
+.box .content .contentMain .mainRight .jingkou { width: 530px; line-height: 24px; font-size: 16px; font-family: 宋体; font-weight: 700; padding-top: 18px; padding-bottom: 20px; }
+
+.box .content .contentMain .mainRight .jingkou h1 { line-height: 1.5em; overflow: hidden; font-weight: 700; font-family: arial,'microsoft yahei'; font-size: 16px; }
+
+.box .content .contentMain .mainRight .jingkou .kouqiang { overflow: hidden; font-family: arial,'microsoft yahei'; color: #e3393c; font-size: 14px; line-height: 20px; word-break: break-all; }
+
+.box .content .contentMain .mainRight .money .mon-1 { font-size: 28px; color: #fd5908; font-weight: 800; float: left; }
+
+.box .content .contentMain .mainRight .money .mon-1 span { font-size: 22px; }
+
+.box .content .contentMain .mainRight .money .mon-2 { width: 40px; height: 28px; background: url(../img/suo.png) -3px -55px no-repeat; font-size: 12px; color: #fff; line-height: 28px; text-align: center; float: left; margin-left: 8px; display: inline; }
+
+.box .content .contentMain .mainRight .money .mon-3 { float: left; font-size: 12px; color: #666; margin-top: 12px; margin-left: 20px; display: inline; }
+
+.box .content .contentMain .mainRight .money .mon-3 .shi { text-decoration: line-through; }
+
+.box .content .contentMain .mainRight .money .mon-3 .hui { margin-left: 10px; }
+
+.box .content .contentMain .mainRight .money2 { margin-top: 20px; color: #ff2e2f; }
+
+.box .content .contentMain .mainRight .money2 a { color: royalblue; }
+
+.box .content .contentMain .mainRight .sao { display: none; margin-left: 170px; margin-top: 20px; }
+
+.box .content .contentMain .mainRight .zhuangZhu { width: 530px; height: 45px; background: url(../img/mian.png) -39px 0px no-repeat; margin-top: 14px; position: relative; line-height: 45px; }
+
+.box .content .contentMain .mainRight .zhuangZhu .sz { position: absolute; top: 8px; left: 20px; background: url(../img/mian.png) -3px -94px no-repeat; width: 36px; height: 30px; }
+
+.box .content .contentMain .mainRight .zhuangZhu .cutTime { font-size: 12px; margin-left: 64px; }
+
+.box .content .contentMain .mainRight .xingHao { font-size: 12px; margin-top: 12px; width: 440px; position: relative; border: 1px solid #fff; border-color: white; }
+
+.box .content .contentMain .mainRight .xingHao .xing { float: left; padding: 18px 14px; }
+
+.box .content .contentMain .mainRight .xingHao .xing .xh-1 { float: left; margin-top: 6px; margin-right: 20px; padding-bottom: 25px; display: inline; }
+
+.box .content .contentMain .mainRight .xingHao .xing .xh-2 { float: left; width: 340px; }
+
+.box .content .contentMain .mainRight .xingHao .xing .xh-2 .ya { border: 1px solid #73dff4; padding: 5px 10px; float: left; margin-right: 6px; display: inline; margin-bottom: 8px; cursor: pointer; position: relative; min-width: 40px; text-align: center; }
+
+.box .content .contentMain .mainRight .xingHao .xing .xh-2 .ya .zzz { position: absolute; bottom: 0px; right: 0px; width: 9px; height: 9px; background: url(../img/mian.png) -45px -57px no-repeat; }
+
+.box .content .contentMain .mainRight .shuLiang { font-size: 12px; width: 530px; height: 26px; margin-top: 8px; margin-left: 16px; }
+
+.box .content .contentMain .mainRight .shuLiang .shu-1 { float: left; height: 26px; line-height: 26px; }
+
+.box .content .contentMain .mainRight .shuLiang .shu-2 { float: left; margin-left: 20px; display: inline; }
+
+.box .content .contentMain .mainRight .shuLiang .shu-2 .sli { float: left; }
+
+.box .content .contentMain .mainRight .shuLiang .shu-2 .sli .jian { width: 20px; height: 24px; text-align: center; line-height: 24px; font-size: 16px; background: #e3e3e3; cursor: pointer; border: 1px solid #aeaeae; float: left; display: inline; }
+
+.box .content .contentMain .mainRight .shuLiang .shu-2 .sli .buyNum { float: left; height: 24px; line-height: 24px; border: 1px solid #aeaeae; border-left: none; border-right: none; text-align: center; }
+
+.box .content .contentMain .mainRight .shuLiang .shu-2 .sli .jia { width: 20px; height: 24px; text-align: center; line-height: 24px; font-size: 16px; cursor: pointer; border: 1px solid #aeaeae; float: left; display: inline; }
+
+.box .content .contentMain .mainRight .shuLiang .shu-2 .sr { float: left; height: 26px; line-height: 26px; padding-left: 10px; }
+
+.box .content .contentMain .mainRight .sm { font-size: 12px; height: 44px; line-height: 44px; margin-left: 70px; }
+
+.box .content .contentMain .mainRight .jiaru { zoom: 1; clear: both; }
+
+.box .content .contentMain .mainRight .jiaru .addCar { float: left; width: 140px; display: inline; height: 54px; background: url(../img/mian.png) -860px -946px no-repeat; cursor: pointer; margin-top: 14px; margin-left: 16px; position: relative; }
+
+.box .content .contentMain .mainRight .jiaru .addCar #buy { display: inline-block; width: 140px; height: 56px; background: none; cursor: pointer; outline: 0; border: 0; }
+
+.box .content .contentMain .mainRight .jiaru .addCar .car { display: inline-block; width: 140px; height: 55px; position: absolute; top: 0; left: 200px; background: orchid; color: white; font-size: 20px; text-align: center; border: 0; }
+
+.box .content .contentMain .mainRight .jiaru .addCar .price { display: block; width: 100px; height: 30px; position: absolute; top: 5px; left: 380px; color: red; font-size: 28px; }
+
+.box .content .contentMain .mainRight .share { width: 530px; height: 44px; line-height: 44px; font-size: 12px; margin-left: 16px; font-family: 宋体; color: #999999; }
+
+.box .content .contentMain .mainRight .share .liao { color: #666; }
+
+.box .content .contentMain .mainRight .share p { color: #999999; margin-top: -15px; }
+
+.box .content .contentMain .mainRight .tui { width: 530px; font-size: 12px; margin-left: 16px; position: relative; height: 40px; line-height: 40px; }
+
+.wr { width: 1000px; margin: 0 auto; }
+
+.wr #nav ul { background: darkgray; height: 46px; width: 1000px; border: 1px solid #ddd; }
+
+.wr #nav ul li { width: 130px; height: 46px; list-style: none; font-size: 14px; color: #666; float: left; text-align: center; line-height: 32px; cursor: pointer; }
+
+.wr #nav ul li span { width: 130px; height: 32px; }
+
+.wr #nav ul li span.active { background: #fff; color: #c00; display: block; }
+
+.wr #nav ul li.hover span.active { background: #c00; color: #fff; display: block; }
+
+.wr #nav ul .hover { background: deepskyblue; color: #fff; }
+
+.wr #main { width: 1000px; margin: 0 auto; }
+
+.wr #main .floor { height: 600px; width: 1000px; font-size: 50px; font-weight: bold; text-align: center; line-height: 600px; }
+
+.wr #main .floor img { height: 600px; width: 100%; display: block; }
+
+.fixnav { width: 88px; height: 204px; position: fixed; right: 20px; top: 200px; display: none; }

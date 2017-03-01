@@ -1,0 +1,119 @@
+/***********************底部样式********************************/
+footer{
+	width: 100%;
+	height: 353px;
+    padding-top: 7px;
+    background: #f0f0f0 url(../img/foot.jpg) repeat-x 0 0;
+    margin-top: 30px;
+}
+.explain{
+	width: 100%;
+	height: 182px;
+	padding-top: 32px;
+    border-bottom: 1px solid #d9d9d9;
+    font-family: \5B8B\4F53;
+}
+.footleft{
+	width: 660px;
+    margin: 0 auto;
+    float: none;
+    padding-left: 12px;
+	
+}
+.footleft dl{
+	padding-left: 25px;
+    width: 107px;
+    height: 149px;
+    color: #666;
+    float: left;
+}
+.footleft dt{
+	width: 107px;
+	height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    padding-bottom: 7px;
+    display: block;
+}
+.footleft dd{
+	width: 107px;
+	height: 24px;
+    line-height: 24px;
+    display: block;
+}
+.footbtm{
+	width:100%;
+	height: 65px;
+	text-align: center;
+    padding-top: 12px;
+}  
+.msglink{
+	height: 28px;
+    line-height: 28px;
+}     
+.msglink a{
+	padding: 0 20px;
+    color: #555555;
+    font-size: 14px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}   
+.msglink span{
+	font-size: 10px;
+    color: #999999;a
+}
+.footbtm .msg{
+	height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #888888;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+    text-align: center;
+}
+.footbtm .tel{
+	width: 450px;
+	text-align: center;
+	height: 44px;
+    line-height: 44px;
+    color: #333333;
+    font-size: 14px;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+    padding-bottom: 1px;
+    position: relative; 
+    padding-left: 36px;
+    margin: 0 auto;
+}
+.footbtm .tel b{
+	position: absolute;
+	left: 80px;
+	top: 16px;
+    width: 21px;
+    height: 14px;
+	background: url("img/tel.jpg") no-repeat 0 0;
+}
+.footbtm .imglink{
+	width: 480px;
+    margin: 0 auto;
+    overflow: hidden;
+}    
+.footbtm .imglink ul{
+	text-align: center;
+	width: 490px;
+	height: 40px;
+}
+.footbtm .imglink ul li{
+	width: 118px;
+	height: 40px;
+	display: inline-block;
+    float: none;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+    
+

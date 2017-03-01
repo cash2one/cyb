@@ -1,0 +1,15 @@
+/*common*/
+body{font-family: '微软雅黑';color: #3a3b39;font-size: 12px;}
+.wrap{
+    width: 1200px;
+    margin:0 auto;
+}
+.clear{
+    zoom:1;
+}
+.clear:after{ 
+    content: '';
+    display: block;
+    clear: both; 
+}
+  

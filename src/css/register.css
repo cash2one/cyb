@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/*reset*/
+body, h1, h2, h3, h4, h5, h6, p, dl, dd, ul, ol, pre, form, input, textarea, th, td, select { margin: 0; padding: 0; }
+
+em { font-style: normal; }
+
+li { list-style: none; }
+
+a { text-decoration: none; color: gray; }
+
+img { border: none; }
+
+table { border-collapse: collapse; }
+
+textarea { resize: none; overflow: hidden; }
+
+/*common*/
+body { font-family: '微软雅黑'; color: #3a3b39; font-size: 12px; }
+
+.wrap { width: 1200px; margin: 0 auto; }
+
+.clear { zoom: 1; }
+
+.clear:after { content: ''; display: block; clear: both; }
+
+/*regmain*/
+.regmain { height: 660px; }
+
+.regmain .regtop { width: 1000px; height: 60px; margin-top: 40px; margin-bottom: 50px; margin-left: auto; margin-right: auto; }
+
+.regmain .regtop .reglogo { width: 162px; height: 60px; background-position: -281px -123px; float: left; display: inline; }
+
+.regmain .regtop .promise { width: 445px; height: 28px; background-position: 0px -188px; margin-top: 32px; background-image: url(../img/loginmain.png); background-repeat: no-repeat; float: right; display: inline; }
+
+.regmain .regtxt { width: 1000px; height: 500px; clear: both; margin-left: auto; margin-right: auto; }
+
+.regmain .regtxt .txtleft { margin-left: 50px; margin-top: 50px; float: left; display: inline; }
+
+.regmain .regtxt .regform { width: 370px; margin-top: 30px; float: right; display: inline; font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif; }
+
+.regmain .regtxt .regform .please { width: 100%; margin-bottom: 20px; font-size: 14px; }
+
+.regmain .regtxt .regform .fr { float: right; display: inline; }
+
+.regmain .regtxt .regform .deng { color: red; }
+
+.regmain .regtxt .regform .plephone, .regmain .regtxt .regform .plepass, .regmain .regtxt .regform .plecomi { color: #f20266; line-height: 25px; height: 25px; width: 100%; display: block; }
+
+.regmain .regtxt .regform .form-control { margin: 10px 0; }
+
+.regmain .regtxt .regform .identify { width: 100%; height: 37px; line-height: 35px; margin-top: 20px; }
+
+.regmain .regtxt .regform .identify .yan { width: 118px; vertical-align: middle; border-color: #bfbdbf; height: 33px; border: 1px solid #bfbdbf; border-radius: 3px; font-size: 14px; line-height: 33px; color: #4c4c4c; padding-left: 10px; }
+
+.regmain .regtxt .regform .identify .yanzh { cursor: pointer; display: inline-block; vertical-align: middle; }
+
+.regmain .regtxt .regform .identify .huan { cursor: pointer; color: #ff9710; vertical-align: middle; }
+
+.regmain .regtxt .regform .identify .tuyan { color: #f20266; }
+
+.regmain .regtxt .regform .yuyin { width: 100%; position: relative; margin-top: 40px; }
+
+.regmain .regtxt .regform .yuyin .yu { width: 118px; border-color: #bfbdbf; height: 33px; border: 1px solid #bfbdbf; border-radius: 3px; font-size: 14px; line-height: 33px; color: #4c4c4c; padding-left: 10px; }
+
+.regmain .regtxt .regform .yuyin label { position: absolute; left: 11px; line-height: 35px; height: 35px; color: #a6a6a6; cursor: text; font-size: 14px; }
+
+.regmain .regtxt .regform .yuyin .sCode { width: 120px; height: 30px; background: #fff5ed; border-radius: 3px; color: darkorange; border: none; }
+
+.regmain .regtxt .regform .queRen { visibility: hidden; color: #f20266; line-height: 25px; height: 25px; width: 100%; }
+
+.regmain .regtxt .regform .regSubmit { margin-bottom: 5px; }
+
+.regmain .regtxt .regform .regSubmit .regS { color: #fff; width: 140px; height: 40px; background-position: -142px -1px; border: none; background-image: url(../img/loginmain.png); background-repeat: no-repeat; font-size: 16px; }
+
+.regmain .regtxt .regform .regRead { margin-top: 15px; }
+
+.regmain .regtxt .regform .regRead .cheGou { color: #666; zoom: 1; }
+
+.regmain .regtxt .regform .regRead .cheGou .vm { background-position: -30px -69px; width: 14px; height: 14px; display: inline-block; cursor: pointer; position: relative; bottom: 2px; left: 2px; background-image: url(../img/loginmain.png); background-repeat: no-repeat; }
+
+.regmain .regtxt .regform .regRead .cheGou a { color: #f43499; }
+
+.regmain .regtxt .regform .yuedu { visibility: hidden; color: #f20266; line-height: 25px; height: 25px; }
+
+.regmain .logFoot { text-align: center; color: #666666; height: 50px; }
+
+.regmain .logFoot .about a { color: #555; padding: 0 11px; font-size: 14px; line-height: 36px; }
+
+.regmain .logFoot .about span { font-size: 12px; }

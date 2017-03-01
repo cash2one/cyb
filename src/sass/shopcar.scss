@@ -1,0 +1,65 @@
+@import 'reset.scss';
+@import 'common.scss';
+/**************************************表头样式***************************************/
+.shopBody{
+    width: 1090px;margin:0 auto;
+    .car{
+        width: 1090px;margin: 0 auto;
+        .title{
+            margin-top: 10px;color: #999;border: 1px solid #eaeaea;height: 34px;line-height: 34px;font-size: 12px;background: mistyrose;
+            div{padding: 0 10px;float: left;}
+            .u-chek{width: 17px;height: 18px;display: inline-block;zoom: 1;-webkit-appearance: none;background: url(../css/img/checkboxIcons.png) no-repeat 0 -24px;outline: none;border: none;margin: -6px 10px 0 12px;}
+            .col1{
+                width: 114px;
+                .u-chek{width: 17px;height: 18px;display: inline-block;zoom: 1;-webkit-appearance: none;outline: none;border: none;margin: -6px 10px 0 12px;}
+                .u-chek:checked {background-position: 0 0;}
+            }
+            .col2{width: 396px;}
+            .col3{width: 132px;}
+            .col4{width: 120px;}
+            .col5{width: 100px;}
+            .col6{width: 106px;}
+        }
+        .lis1{
+             margin-top: 10px;padding-left:10px;color: #999;border: 1px solid #eaeaea;height: 200px;line-height: 34px;font-size: 12px;
+            .u-chek{width: 17px;height: 18px;display: inline-block;zoom: 1;-webkit-appearance: none;background: url(../css/img/checkboxIcons.png) no-repeat 0 -24px;outline: none;border: none;margin: -6px 10px 0 12px;}
+            .u-chek:checked {background-position: 0 0;}
+            .lism1{
+                position: relative;
+                .tupian{display: block;width: 100px;height: 100px;position: absolute;top: 0;left: 100px;}
+                .miaosu{display: block;width: 300px;height: 100px;position: absolute;top: 0;left: 200px;margin-left: 30px;}
+                .now{width: 80px;height: 20px;display: block;position: absolute;top: 10px;left: 560px;text-align: center;line-height: 20px;}
+                .pre{width: 80px;height: 20px;display: block;position: absolute;top: 50px;left: 560px;text-align: center;line-height: 20px;}
+                .sli{
+                        float: left;position: absolute;top: 25px;left: 680px;
+                        .jian{width: 20px;height: 24px;text-align: center;line-height: 24px;font-size: 16px;background: #e3e3e3;cursor: pointer;border: 1px solid #aeaeae;float: left;display: inline;}
+                        .buyNum{float: left;height: 24px;line-height: 24px;border: 1px solid #aeaeae;border-left: none;border-right: none;text-align: center;}
+                        .jia{width: 20px;height: 24px;text-align: center;line-height: 24px;font-size: 16px;cursor: pointer;border: 1px solid #aeaeae;float: left;display: inline;}
+                    }
+                .now2{display: block;width: 25%;height: 100px;position: absolute;top: 23px;left: 841px;color: orange;} 
+                .shang{display: block;width: 25%;height: 100px;position: absolute;top: 23px;left: 961px;}
+                .xiaoji{
+                    width: 40%;height: 50px;margin-top: 70px;margin-right: 10px; position: absolute;top: 30px;right: 0;font-size: 16px;
+                } 
+                   
+            }
+            
+        }
+    }
+}
+    /*******************************************************************/
+    .mai{
+        width: 140px;display: inline;height: 54px;cursor: pointer;margin-top: 14px;margin-left: 16px;position: relative;
+        .gou{display: inline-block;width: 140px;height: 55px;position: absolute;top:0;left:989px;background: pink;color: white;font-size: 20px;text-align: center;border: 0;}
+    }
+
+
+
+
+
+
+
+
+
+
+
